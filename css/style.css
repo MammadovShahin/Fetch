@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main .text-pray {
+  padding: 30px;
+  text-align: center;
+  color: #ff0e0e;
+  font-size: 38px;
+  font-weight: 400;
+}
+.main .choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.main .choose select {
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+}
+.main .btn button {
+  background-color: #fc3737;
+  padding: 15px 55px;
+}
+.main .table {
+  margin-top: 5rem;
+}
+.main .loading-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  background: rgba(10, 10, 10, 0.658);
+}
+.main .loading-menu .loading {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .loading-menu .loading img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .text-pray{
+        padding: 30px;
+        text-align: center;
+        color: rgb(255, 14, 14);
+        font-size: 38px;
+        font-weight: 400;
+    }
+    .choose{
+        display: flex;
+        text-align: center;
+        select{
+            margin-top: 30px;
+            justify-content: center;
+            width: 90%;
+        }
+        
+    }
+    .btn{
+        button{
+            background-color: rgb(252, 55, 55);
+            padding: 15px 55px;
+        }
+    }
+    .table{
+        margin-top: 5rem;
+    }
+    .loading-menu{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: none;
+        background: rgba(10, 10, 10, 0.658);
+        .loading{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
